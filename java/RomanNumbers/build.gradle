@@ -1,0 +1,18 @@
+plugins {
+    // Apply the java-library plugin to add support for Java Library
+    id 'java-library'
+}
+
+repositories {
+    mavenLocal()
+    maven {
+        url 'https://nexus.intra.bec.dk/nexus/content/groups/bec-dev-releases'
+    }
+    maven {
+        url 'https://nexus.intra.bec.dk/nexus/content/groups/bec-snapshots'
+    }
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+}
