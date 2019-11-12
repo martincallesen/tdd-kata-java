@@ -5,8 +5,6 @@ function ought to look like. It is intentionally designed to start with a very e
 slowly becomes addled with complexity as additional requirements are added that will require significant branching and 
 eventually a pressure to compose additional units.
 
-This Kata was suggested by [Nick Gauthier](http://ngauthier.com) and inspired a bit by Bob from [Exercism](http://exercism.io).
-
 This Kata is designed to be used with BottomUp approach [[Detroit-school TDD]].
 
 ## Requirement 1
