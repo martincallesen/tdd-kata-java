@@ -6,10 +6,15 @@ group 'dk.martincallesen.tdd'
 version '1.0-SNAPSHOT'
 
 repositories {
-    mavenCentral()
+    mavenLocal()
+    maven {
+        url 'https://nexus.intra.bec.dk/nexus/content/groups/bec-dev-releases'
+    }
+    maven {
+        url 'https://nexus.intra.bec.dk/nexus/content/groups/bec-snapshots'
+    }
 }
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    testCompile group: 'org.mockito', name: 'mockito-core', version: '3.1.0'
 }
