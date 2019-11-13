@@ -1,4 +1,4 @@
-# The Greeting Kata
+# The Roman number Kata
 
 This [Kata](https://en.wikipedia.org/wiki/Kata_(programming)) is designed to help practice what a test of a pure 
 function ought to look like. It is intentionally designed to start with a very easy, non-branching base case which 
@@ -30,13 +30,22 @@ Convert Repeated Roman Numbers to Arabic number
 
 ## Requirement 3
 
+Convert Roman Numbers that can be replaced by another roman number should result in error
+| RomanNumber | ArabicNumber |
+| IIIII       | ERROR        |
+| XXXXX       | ERROR        |
+| DD          | ERROR        |
+
+
+## Requirement 4
+
 Convert Multiple Roman Numbers to Arabic number
 | RomanNumber | ArabicNumber |
 | XV          | 15           |
 | CLX         | 160          |
 
 
-## Requirement 4
+## Requirement 5
 
 Convert Multiple Roman Numbers With Subtractive Notation to Arabic number
 | RomanNumber | ArabicNumber |
@@ -46,3 +55,9 @@ Convert Multiple Roman Numbers With Subtractive Notation to Arabic number
 | XC          | 90           |
 | CD          | 400          |
 | CM          | 900          |
+
+## Requirement 6
+
+Convert larger Roman Numbers 
+| RomanNumber | ArabicNumber |
+| MMMMCMXCIX  | 4999         |
