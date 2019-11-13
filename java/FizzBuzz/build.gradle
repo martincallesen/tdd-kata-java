@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'dk.bec'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    maven {
+        url 'https://nexus.intra.bec.dk/nexus/content/groups/bec-dev-releases'
+    }
+    maven {
+        url 'https://nexus.intra.bec.dk/nexus/content/groups/bec-snapshots'
+    }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
