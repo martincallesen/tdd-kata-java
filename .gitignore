@@ -16,3 +16,6 @@ gradle-app.setting
 #
 # Intellij
 .idea
+
+#Eclipse
+bin
