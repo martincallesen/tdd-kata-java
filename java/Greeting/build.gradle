@@ -6,13 +6,7 @@ plugins {
 version '1.0-SNAPSHOT'
 
 repositories {
-    mavenLocal()
-    maven {
-        url 'https://nexus.intra.bec.dk/nexus/content/groups/bec-dev-releases'
-    }
-    maven {
-        url 'https://nexus.intra.bec.dk/nexus/content/groups/bec-snapshots'
-    }
+    jcenter()
 }
 
 dependencies {
