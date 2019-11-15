@@ -1,2 +1,11 @@
 # tdd-kata
-Show examples off TDD kata excercises. Solutions from different people can be posten in a branch with eg. authorname-solution1
+Show some TDD katas of various diffeculty. 
+
+## Easy katas
+FizzBuzz
+
+## Medium Katas
+
+## Hard Katas
+
+It could be fun to compare the various solutions to katas. If you want to share your solution you are welcome to post it on a seperate branch. Branch name could be your name-solution-1
