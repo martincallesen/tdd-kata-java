@@ -1,5 +1,5 @@
-# tdd-kata
-Show some TDD katas of various diffeculty. 
+# TDD-kata
+Contains some TDD katas of various diffeculty. 
 
 ## Easy katas
 FizzBuzz
