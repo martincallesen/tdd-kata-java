@@ -2,12 +2,12 @@
 Contains some TDD katas of various diffeculty. 
 
 ## Easy katas
-FizzBuzz
+- FizzBuzz
 
 ## Medium Katas
-Greetings
-RomanNumbers
-Supermarket-Pricing
+- Greetings
+- RomanNumbers
+- Supermarket-Pricing
 
 ## Hard Katas
 
