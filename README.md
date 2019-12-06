@@ -18,7 +18,7 @@ The repository contains some TDD katas of various diffeculty.
 
 _______________________________________________________________________________________________________________________________________
 
-It could be fun to compare the various solutions to katas. If you want to share your solution you are welcome to post it on a seperate branch. Branch name could be your name-solution-1
+It could be fun to compare the various solutions to katas. If you want to share your solution you are welcome to post it on a seperate branch. Branch name could be your solution-1
 
 
 HAVE FUN!!!!
