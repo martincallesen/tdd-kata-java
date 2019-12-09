@@ -48,7 +48,7 @@ Buzz
 ... etc up to 100
 
 ## Requirement 1
-A number is fizz if it is divisible by 3 or if it has a 3 in it
+A number is fizz if it is divisible by 3
 
 ### Example Printing fizz:
 given 3
@@ -56,7 +56,7 @@ when fizzbuzz prints
 then fizz is printed
 
 ## Requirement 2
-A number is buzz if it is divisible by 5 or if it has a 5 in it
+A number is buzz if it is divisible by 5
 
 ### Example Printing buzz:
 given 5
