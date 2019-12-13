@@ -20,6 +20,7 @@ So of course in order to avoid embarassment infront of your whole class, you hav
 you know what to say. Your class has about 33 pupils and he might go round three times before the bell rings for 
 breaktime. Next maths lesson is on Thursday. Get coding!
 
+# Task:
 Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number 
 and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz “.
 
@@ -48,25 +49,25 @@ Buzz
 ... etc up to 100
 
 ## Requirement 1
-A number is fizz if it is divisible by 3
+When a number is divisible by 3 then Fizz should be printed
 
 ### Example Printing fizz:
-given 3
+given number is 3
 when fizzbuzz prints 
 then fizz is printed
 
 ## Requirement 2
-A number is buzz if it is divisible by 5
+When a number is divisible by 5 then Buzz should be printed
 
 ### Example Printing buzz:
-given 5
+given number is 5
 when fizzbuzz prints 
 then buzz is printed
 
 ## Requirement 3
-A number is fizzbuzz if it is divisible by 5 and if it is divisible by 3
+When a number is divisible by 3 and 5 then Fizzbuzz should be printed
 
 ### Example Printing buzz:
-given 15
+given number is 15
 when fizzbuzz prints 
 then fizzbuzz is printed
