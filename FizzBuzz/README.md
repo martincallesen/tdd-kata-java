@@ -24,50 +24,47 @@ breaktime. Next maths lesson is on Thursday. Get coding!
 Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number 
 and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz “.
 
-Sample output:
-
-1
-2
-Fizz
-4
-Buzz
-Fizz
-7
-8
-Fizz
-Buzz
-11
-Fizz
-13
-14
-FizzBuzz
-16
-17
-Fizz
-19
-Buzz
-... etc up to 100
-
 ## Requirement 1
 When a number is divisible by 3 then Fizz should be printed
-
-### Example Printing fizz:
-given number is 3
-when fizzbuzz prints 
-then fizz is printed
+| Number | Prints |
+| 3      | Fizz   |
+| 6      | Fizz   |
+| 9      | Fizz   |
+| 12     | Fizz   |
 
 ## Requirement 2
 When a number is divisible by 5 then Buzz should be printed
-
-### Example Printing buzz:
-given number is 5
-when fizzbuzz prints 
-then buzz is printed
+| Number | Prints |
+| 5      | Buzz   |
+| 10     | Buzz   |
+| 15     | Buzz   |
+| 20     | Buzz   |
 
 ## Requirement 3
 When a number is divisible by 3 and 5 then Fizzbuzz should be printed
+| Number | Prints     |
+| 15     | FizzBuzz   |
+| 30     | FizzBuzz   |
+| 45     | FizzBuzz   |
+| 60     | FizzBuzz   |
 
-### Example Printing buzz:
-given number is 15
-when fizzbuzz prints 
-then fizzbuzz is printed
+
+Sample output when all requirements is applied:
+| Number | Prints    |
+| 1     | 1          |
+| 2     | 2          |
+| 3     | Fizz       |
+| 4     | 4          |
+| 5     | Buzz       |
+| 6     | Fizz       |
+| 7     | 7          |
+| 8     | 8          |
+| 9     | Fizz       |
+| 10    | Buzz       |
+| 11    | 11         |
+| 12    | Fizz       |
+| 13    | 13         |
+| 14    | 14         |
+| 15    | FizzBuzz   |
+
+... etc up to 100
