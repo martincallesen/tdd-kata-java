@@ -1,4 +1,4 @@
-# The Bowling game Kata
+# The FizzBuzz Kata
 
 This [Kata](https://en.wikipedia.org/wiki/Kata_(programming)) is designed to help practice what a test of a pure 
 function ought to look like. It is intentionally designed to start with a very easy, non-branching base case which 
@@ -37,7 +37,6 @@ When a number is divisible by 5 then Buzz should be printed
 | Number | Prints |
 | 5      | Buzz   |
 | 10     | Buzz   |
-| 15     | Buzz   |
 | 20     | Buzz   |
 
 ## Requirement 3
@@ -48,6 +47,12 @@ When a number is divisible by 3 and 5 then Fizzbuzz should be printed
 | 45     | FizzBuzz   |
 | 60     | FizzBuzz   |
 
+## Requirement 4
+Only do print on numbers from 1 to 100
+| Number | Prints     |
+| 0      |            |
+| 1      | 1          |
+| 101    |            |
 
 Sample output when all requirements is applied:
 | Number | Prints    |
