@@ -28,6 +28,8 @@ In the tenth frame a player who rolls a spare or strike is allowed to roll the e
 balls to complete the frame.  However no more than three balls can be rolled in
 tenth frame.
 
+If you want to test our some games you can try https://www.bowlinggenius.com/
+
 ## Requirement 1
 
 ### Example Gutter Game:
