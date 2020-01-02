@@ -64,15 +64,34 @@ then score is 24
 
 ## Requirement 5
 
+### Example Two rolls in last turn:
+given 9 rolls is scoring 10,
+given a roll scoring 3, 
+given a roll scoring 4,
+when score is calculated, 
+then score is 257
+
+## Requirement 6
+
 ### Example One Spare in last turn:
 given 9 rolls is scoring 10,
 given a roll scoring 3, 
 given a roll scoring 7,
-given a roll scoring 7,
+given a roll scoring 3,
 when score is calculated, 
-then score is 287
+then score is 266
 
-## Requirement 6
+## Requirement 7
+
+### Example One Strike in last turn:
+given 9 rolls is scoring 10,
+given a roll scoring 10, 
+given a roll scoring 3,
+given a roll scoring 3,
+when score is calculated, 
+then score is 279
+
+## Requirement 8
 
 ### Example Perfect game:
 given 12 rolls is scoring 10,
