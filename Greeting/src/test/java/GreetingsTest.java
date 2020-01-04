@@ -1,44 +1,11 @@
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class GreetingsTest {
     @Test
-    @Ignore
-    public void greetingWithName() {
+    public void interpolatesToSimpleGreeting() {
+        assertEquals("Hello, Bob.", Greetings.greet("Bob"),"Greeting");
     }
 
-    @Test
-    @Ignore
-    public void greetingWithNull() {
-    }
-
-    @Test
-    @Ignore
-    public void greetingShout() {
-    }
-
-    @Test
-    @Ignore
-    public void greetingWithTwoNames() {
-    }
-
-    @Test
-    @Ignore
-    public void greetingWithMultipleNames() {
-    }
-
-    @Test
-    @Ignore
-    public void greetingWithMultipleNamesAndShout() {
-    }
-
-    @Test
-    @Ignore
-    public void greetingWithMultipleNamesAndComma() {
-    }
-
-    @Test
-    @Ignore
-    public void greetingWithMultipleNamesAndEscaped() {
-    }
 }

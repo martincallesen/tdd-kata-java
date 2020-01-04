@@ -1,29 +1,16 @@
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 public class BowlingGameTest {
-    @Test
-    @Ignore
-    public void gutterGame() {
+    @DisplayName("All rolls goes to the gutter")
+    @ParameterizedTest
+    @ValueSource(ints = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21})
+    public void gutterGame(int gameRound){
+        BowlingGame bowlingGame = new BowlingGame();
+        bowlingGame.roll(0);
+        assertEquals("0", bowlingGame.score(), "Score");
     }
 
-    @Test
-    @Ignore
-    public void allOnes() {
-    }
-
-    @Test
-    @Ignore
-    public void oneSpare() {
-    }
-
-    @Test
-    @Ignore
-    public void oneStrike() {
-    }
-
-    @Test
-    @Ignore
-    public void perfectGame() {
-    }
 }

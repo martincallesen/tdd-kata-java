@@ -1,41 +1,11 @@
-import org.junit.Ignore;
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class RomanNumbersTest {
-
     @Test
-    @Ignore
-    public void convertSingleRomanNumbers() {
-
-    }
-
-    @Test
-    @Ignore
-    public void convertRepeatedRomanNumbers() {
-
-    }
-
-    @Test
-    @Ignore
-    public void convertRepeatedRomanNumbersThatCanBeReplaced() {
-
-    }
-
-    @Test
-    @Ignore
-    public void convertMultipleRomanNumbers() {
-
-    }
-
-    @Test
-    @Ignore
-    public void convertMultipleRomanNumbersWithSubtractiveNotation() {
-
-    }
-
-    @Test
-    @Ignore
-    public void convertLargerRomanNumbers() {
-
+    public void convertSingleRomanNumbersToArabicNumber() {
+        assertEquals(1, RomanNumbers.convertToArabicNumber("I"), "ArabicNumber");
     }
 }
