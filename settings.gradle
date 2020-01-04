@@ -1,0 +1,8 @@
+rootProject.name = 'TDD-KATA'
+
+include 'FizzBuzz'
+include 'BowlingGame'
+include 'Greeting'
+include 'RomanNumbers'
+
+
