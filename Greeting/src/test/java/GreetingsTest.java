@@ -1,11 +1,11 @@
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.hamcrest.CoreMatchers.is;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class GreetingsTest {
     @Test
     public void interpolatesToSimpleGreeting() {
-        Assert.assertThat("Greeting", Greetings.greet("Bob"), is("Hello, Bob."));
+        assertEquals("Hello, Bob.", Greetings.greet("Bob"),"Greeting");
     }
+
 }
