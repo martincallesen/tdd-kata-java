@@ -4,7 +4,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class FizzBuzzTest {
+class FizzBuzzTest {
 
     @DisplayName("When a number is divisible by 3 then Fizz should be printed")
     @ParameterizedTest
