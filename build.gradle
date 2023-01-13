@@ -1,9 +1,10 @@
-plugins {
-    id 'java'
-    id 'eclipse' // optional (to generate Eclipse project files)
-    id 'idea' // optional (to generate IntelliJ IDEA project files)
-}
-allprojects {
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'eclipse'
+    apply plugin: 'idea'
+
+    sourceCompatibility = 17
+
     repositories {
         mavenCentral()
     }
@@ -20,8 +21,3 @@ allprojects {
         }
     }
 }
-
-subprojects {
-    version = '1.0'
-}
-
